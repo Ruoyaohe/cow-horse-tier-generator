@@ -217,6 +217,11 @@ ${'='.repeat(50)}
   }
 });
 
-server.listen(PORT, '0.0.0.0', () => {
+server.on('error', error => {
+  console.error('Server failed to start:', error);
+  process.exit(1);
+});
+
+server.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
