@@ -1,0 +1,5 @@
+{
+  "name": "牛马等级生成器 (Cow-Horse Tier Generator)",
+  "description": "输入你的打工状态，生成专属的‘金/银/铜’牛马雕像，用AI艺术讽刺当代打工人的辛酸。",
+  "requestFramePermissions": []
+}
